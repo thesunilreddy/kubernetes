@@ -4,7 +4,7 @@ metadata:
   name: pod1
 spec :
   containers:
-    name : container1
+   - name : container1
     image : ngnix
     ports:
-      containerPort: 80
+    -  containerPort: 80
