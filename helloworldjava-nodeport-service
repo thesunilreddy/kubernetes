@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: helloworldjava-service
+spec:
+  ports:
+  - port: 31001
+    targetPort: java-port
+    protocol: TCP
+  selector:
+    app: helloworldjava
+  type: NodePort
