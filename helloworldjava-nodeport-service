@@ -4,7 +4,7 @@ metadata:
   name: helloworldjava-service
 spec:
   ports:
-  - port: 31001
+  - port: 31002
     targetPort: java-port
     protocol: TCP
   selector:
